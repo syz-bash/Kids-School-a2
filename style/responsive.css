@@ -1,0 +1,51 @@
+/* header */
+/* section-1 */
+@media screen and (max-width:576px) {
+    .nv-logo>h2,.nv-anc,.nv-contact{
+        display: none;
+    }
+    /* .hamburger menu */
+    .hamburger{
+        display: block;
+    }
+    .hamburger div{
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        margin: 5px;
+    }
+    /* section-2 */
+    .banner{
+        display: grid;
+        grid-template-areas: 
+        "banner-img"
+        "banner-content";
+        gap: 30px;
+    }
+    .banner-content{
+        grid-area: banner-content;
+        text-align: center;
+
+    }
+    .banner-content h1{
+        font-size: 32px;
+    }
+    .banner-content > p{
+        font-size: 16px;
+    }
+    .banner-content > p > br{
+        display: none;
+    }
+    .banner-content button{
+        padding: 6px 24px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+    .banner-img img{
+        grid-area: banner-img;
+        width: 85vw;
+    }
+
+    
+
+}

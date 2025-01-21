@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 85vw;
+    margin: 0 auto;
+}
+/* font */
+
+/* quicksand-font */
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+/* raleway-font */
+.raleway-font{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+/* header */
+
+/* nv-container */
+.nv-container{
+    margin: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+/* nv-logo */
+.nv-logo{
+    gap: 10px;
+    align-items: center;
+}
+.nv-logo h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+/*  nv-anc*/
+.nv-anc{
+    font-size: 1.25rem;
+    font-weight: bold;
+    gap: 30px;
+    list-style: none;
+}
+.nv-anc a{
+    text-decoration: none;    
+}
+.home a{
+    color: orange;
+}
+.about a{
+    color: skyblue;
+}
+.faci a{
+    color: #05D4DF;
+}
+.admission a{
+    color: #5D58EF;
+}
+
+/* nv-contact */
+.nv-contact h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    background-color: orange;
+    padding: 10px 60px;
+    border-radius: 12px;
+}
+.hamburger{
+    display: none;
+}
+
+/* section-2 */ 
+.banner{
+    justify-content: space-between;
+    align-items: center;
+}
+/* banner heading */
+.banner-content h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+.s1{
+    color: orange;
+}
+.s2{
+    color: skyblue;
+}
+
+/* banner title */
+.banner-content p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+/* banner-button */
+.banner-content button{
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 47px;
+}
