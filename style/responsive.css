@@ -148,7 +148,53 @@
     .stories{
         padding-bottom: 50px;
     }
-    
+    /* footer */
+    .f-container{
+        flex-direction: column;
+    }
+    .leader{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .f-container h3{
+        font-size: 32.3px;
+    }
+    .f-container p{
+        font-size: 15px;
+    }
+     /* sp-2 */
+    .sp-2{
+        width: 100%;
+        text-align: center;
+    }
+    .sp-2 h1{
+        font-size: 29px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .f-nv a{
+        text-decoration: none;
+        font-size: 15px;
+    }
+    /* .sp-3 */
+    .sp-3{
+        width: 100%;
+        margin-top: 39px;
+        text-align: center;
+    }
+    .sp-3 h1{
+        font-size: 29px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    marquee{
+        position: relative;
+        top: -120px;
+        font-size: 15px;
+        font-weight: 450;
+        color: #F1F8E8;
+        background-color: #55AD9B;
+        padding: 8px;
+    }
 
-
-}
+    }
