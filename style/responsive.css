@@ -19,7 +19,7 @@
         position: relative;
         left: calc(-7.5vw);
         width: 100vw;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         border-bottom:1.78px orange solid;
     }
     .nv-container{
