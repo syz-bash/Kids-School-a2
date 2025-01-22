@@ -237,9 +237,6 @@ body{
     background: 
         linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 233, 196, 1)), 
         url('../assets/bg.png');
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat; 
 }
 
 

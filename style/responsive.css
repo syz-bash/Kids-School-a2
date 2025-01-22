@@ -94,6 +94,15 @@
         font-weight: bold;
     }
     /* section-2 */
+    .sc-2 {
+        position: relative;
+        
+        left: calc(-8vw); 
+        width: 100vw;
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
     .stry-1{
         display: none;
     }
